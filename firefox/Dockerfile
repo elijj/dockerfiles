@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-
+LABEL maintainer="Tomohisa Kusano <siomiz@gmail.com>"
 RUN apt-get update && apt-get install -y firefox
 
 # Replace 1000 with your user / group id
